@@ -556,11 +556,6 @@ p.notice {
     background: rgba(230, 230, 255, .03)
 }
 
-h1,h2,h3,h4,h5,h6 {
-    padding: .5rem;
-    padding-left: .75rem;
-    border-left: solid 4px #9905fb;
-}
 
 #reward,
 #reward img {
@@ -2456,7 +2451,10 @@ section#index-list>ul>li.style-2 article .theme-dark p {
 .theme-dark .yue h4,
 .theme-dark .yue h5,
 .theme-dark .yue h6 {
-    color: #cececf
+    padding: .5rem;
+    padding-left: .75rem;
+    border-left: solid 4px #ad05fb;
+    color: #ad05fb;
 }
 
 .yue h1+*,
