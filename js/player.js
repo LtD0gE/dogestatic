@@ -134,6 +134,8 @@
 		audio.addEventListener('durationchange', beforeLoad, false);
 		audio.addEventListener('canplay', afterLoad, false);
 		audio.addEventListener('ended', ended, false);
+		if(item.msg != undefined) VOID.alert(item.msg,5000);
+
 	}
 
 	loadMusic(currentTrack);
